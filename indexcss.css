@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.headd {
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+
+.headd a.logo_img{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: #A7FF36;
+}
+
+.logo {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+.headd ul.button {
+    list-style: none;
+    display: flex;
+    width: 800px;
+    height: 75px;
+    background-color: #CBFF89;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headd ul.button li a{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.headd ul.button li a img.img1{
+    display: flex;
+    padding-right: 10px;
+}
+
+.headd ul.autorization {
+    list-style: none;
+    display: flex;
+    background-color: #a9ff3a;
+    justify-content: flex-end;
+    width: 150px;
+    height: 75px;
+    padding-inline-start: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headd ul.autorization li a img.img1{
+    margin-left: 15px;
+}
+
+.headd ul.autorization li a img.img2{
+    margin-right: 15px;
+    
+}
+
+section.batton_ander_logo {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #CBFF89;
+    width: 200px;
+    height: 220px;
+    align-items: center;
+}
+
+.bottam li {
+    display: flex;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    min-height: 30px;
+}
+
+.aaa {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main_area {
+    display: flex;
+    background-color: #d8ffa5;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.main_area section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main_area section div {
+    display: flex;
+    background-color: #fff;
+    width: 637px;
+    height: 516px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.main_area section div ul.headers {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    justify-content: flex-start;
+    width: 637px;
+    height: 100px;  
+}
+
+.main_area section div ul.headers ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.main_area section div ul.headers li.user {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.main_area section div ul.headers ul li.user_name {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.main_area section div ul.headers ul li.name_message {
+    margin-left: 10px;
+    font-size: 30px;
+    width: 420px;
+}
+
+.main_area section div ul.headers p {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.main_area section div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_area section div ul.text_and_img {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.main_area section div ul.text_and_img li.text_block {
+    display: flex;
+    height: 200px;
+    font-size: 20px;
+
+}
+
+.main_area section div ul.text_and_img li.img_block{
+    display: flex;
+    height: 150px;
+    margin-top: 20px;
+    width: 597px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    height: 300px;
+    margin-top: 50px;
+    background-color: rgb(235, 235, 235);
+}
+
+footer ul li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 30px;
+}
