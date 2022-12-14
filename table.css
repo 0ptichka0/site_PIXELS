@@ -124,96 +124,42 @@ section.batton_ander_logo {
 
 .main_area section {
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    width: 1300px;
+    margin-top: 100px;
+    margin-left: 100px;
     margin-bottom: 50px;
 }
 
-.main_area section div {
-    display: flex;
-    background-color: #fff;
-    width: 637px;
-    height: 516px;
-    margin-left: 55px;
-    margin-right: 55px;
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border-bottom: 2px solid #6678b1;
 }
 
-.main_area section div ul.headers {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    justify-content: flex-start;
-    width: 637px;
-    height: 100px;  
-}
-
-.main_area section div ul.headers ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-.main_area section div ul.headers li.user {
-    display: flex;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.main_area section div ul.headers ul li.user_name {
-    margin-top: 20px;
-    margin-left: 10px;
+th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 10px 8px;
     font-size: 20px;
 }
 
-
-.main_area section div ul.headers ul li.name_message {
-    margin-left: 10px;
+.as {
     font-size: 30px;
-    width: 420px;
+    text-align: center;
 }
 
-.main_area section div ul.headers p {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    margin-left: 10px;
-
+td {
+    color: #669;
+    padding: 9px 8px;
+    transition: .3s linear;
 }
 
-.main_area section div {
-    display: flex;
-    flex-direction: column;
-}
-
-.main_area section div ul.text_and_img {
-    display: flex;
-    list-style: none;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    flex-direction: column;
-}
-
-.main_area section div ul.text_and_img li.text_block {
-    height: 200px;
-    font-size: 20px;
-    tab-size: 8;
-    max-height: 200px;
-}
-
-.main_area section div ul.text_and_img li.img_block{
-    display: flex;
-    height: 150px;
-    margin-top: 20px;
-    width: 597px;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.main_area section div ul.text_and_img li.img_block a img {
-    display: flex;
-    width: 597px;
-    height: 150px;
+tr:hover td {
+    color: #6699ff;
+    background: #e8edff;
 }

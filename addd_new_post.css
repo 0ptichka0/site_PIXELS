@@ -119,101 +119,61 @@ section.batton_ander_logo {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.main_area section {
+.main_area section.header_new_post {
     display: flex;
-    justify-content: space-around;
+    width: 700px;
+    margin-left: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.main_area section div {
-    display: flex;
-    background-color: #fff;
-    width: 637px;
-    height: 516px;
-    margin-left: 55px;
-    margin-right: 55px;
-}
-
-.main_area section div ul.headers {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    justify-content: flex-start;
-    width: 637px;
-    height: 100px;  
-}
-
-.main_area section div ul.headers ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-.main_area section div ul.headers li.user {
-    display: flex;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.main_area section div ul.headers ul li.user_name {
-    margin-top: 20px;
-    margin-left: 10px;
-    font-size: 20px;
-}
-
-
-.main_area section div ul.headers ul li.name_message {
-    margin-left: 10px;
-    font-size: 30px;
-    width: 420px;
-}
-
-.main_area section div ul.headers p {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-    margin-left: 10px;
-
-}
-
-.main_area section div {
-    display: flex;
-    flex-direction: column;
-}
-
-.main_area section div ul.text_and_img {
-    display: flex;
-    list-style: none;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
     margin-bottom: 20px;
     flex-direction: column;
 }
 
-.main_area section div ul.text_and_img li.text_block {
-    height: 200px;
-    font-size: 20px;
-    tab-size: 8;
-    max-height: 200px;
+.main_area section.header_new_post h1 {
+    text-align: left;
+    font-size: 40px;
 }
 
-.main_area section div ul.text_and_img li.img_block{
-    display: flex;
-    height: 150px;
+.main_area section.header_new_post input.title {
+    margin-top: 10px;
+    width: 500px;
+    font-size: 30px;
+}
+
+.main_area section.header_new_post textarea.Textarea {
     margin-top: 20px;
-    width: 597px;
-    flex-direction: row;
-    justify-content: center;
+    width: 700px;
+    height: 300px;
+    font-size: 20px;
 }
 
-.main_area section div ul.text_and_img li.img_block a img {
+.main_area section.header_new_post input.button {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.main_area section.header_new_post input.http_img {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.main_area section.rules {
     display: flex;
-    width: 597px;
-    height: 150px;
+    width: 600px;
+    margin-left: 200px;  
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.main_area section.rules h1 {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.main_area section.rules p {
+    font-size: 20px;
 }
